@@ -2,12 +2,13 @@ Algoritmo Calculo_de_dividendo
 	//definimos
 	Definir Monto_apostado, dividendo, Monto_a_cobrar, Mantequilla, valor_boleto Como Real 
 	//entradas
+	Mostrar "Hola, Ingresa el valor del boleto o unidad de apuesta"Sin Saltar
+	Leer valor_boleto
 	Mostrar "Ingrese el monto apostado: "Sin Saltar
 	Leer Monto_apostado
 	Mostrar "Ingrese el Monto de dividendo: "Sin Saltar
 	Leer dividendo
 	//Proceso 
-	valor_boleto = 1000
 	si dividendo >= 1000 y dividendo <= 1700 Entonces
 		dividendo = 1500
 	SiNo
